@@ -1,0 +1,103 @@
+@import "../resetcss.css";
+
+
+
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.first-part{
+    /* border: 1px solid black;  */
+    display: flex;
+   
+   
+} 
+.logo{
+     margin-top: 9rem;
+     margin-left: 7rem;
+    /* border: 1px solid black; */
+    width: 50%;
+
+}
+
+.logo img{
+    width: 100%
+}
+.banner-heading{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+   
+
+
+}
+.banner-head{
+    text-align: center;
+    /* border: 1px solid black; */
+    font-size: 4.5rem;
+   text-align-last: center;
+   margin: 7rem 0rem 0 0rem;
+   width: 59rem;
+
+}
+.banner-tag{
+    /* border: 1px solid black; */
+    width: 50rem;
+    font-size: 3rem;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 3rem;
+}
+.banner-button-box{
+     /* border: 1px solid black; */
+     margin: 8rem;
+     width: 40rem;
+     height: 6rem;
+     display: flex;
+     justify-content: space-between;
+}
+.btn-started{
+  border: none;
+  width: 20rem;
+  background-color:#fb7185;
+  border-radius: 1rem;
+}
+.btn-started >a {
+    color: #fff1f2;
+}
+.btn-github{
+ border: none;
+ width: 15rem;
+ background-color:#fff1f2;
+ border-radius: 1rem;
+}
+.btn-github>a{
+    color: #fb7185;
+}
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+.red-text{
+    color: #fb7185;
+   
+}
+
