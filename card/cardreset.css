@@ -1,0 +1,54 @@
+@import "../variableCss.css";
+.same{
+    border-color: var(--primary-color);
+}
+a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.card-tittle {
+    text-align:center;
+    font-size:var(--card-tittle-font-size);
+    /* border:1px solid black; */
+   
+}
+.card-head {
+    font-size:var(--card-heading-font-size);
+    /* border:1px solid black; */
+    
+}
+.card-tag {
+    font-size:var(--card-tag-font-size);
+    color: gray;
+    /* border:1px solid black; */
+}
+
+.card-desc {
+    font-size:var(--card-description-font-size);
+    /* border:1px solid black; */
+}
+.card-price {
+    font-size:var(--card-price-font-size);
+  }
+.original {
+    text-decoration: line-through;
+  }
+.card-off {
+    color: red;
+    font-size: var(--card-discount-font-size);
+}
+
+.skin{
+    padding-bottom: 1rem;
+}
+.border-skin{
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+/* ------------------------------------------------------------------------------------------- */
+
+
+

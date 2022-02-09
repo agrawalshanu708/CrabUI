@@ -1,0 +1,55 @@
+@import "../resetcss.css";
+
+  
+  /* ----------------------------------------------------------------------------------------------------------------------- */
+    .alert-container{
+        display: flex;
+        flex-direction: column;
+      /* border: 1px solid black; */
+      margin : 2rem 0 2rem 0;
+      }
+      li a{
+          text-decoration: none;
+      }
+      .list-alert-container >*{
+          border: 1px solid black;
+          padding: 1rem;
+          list-style: none;
+          margin: 0 5vw;
+    }
+    li{
+        font-size: 2rem;
+        
+    }
+    .red-alert{
+        background-color: #f87171 ;
+        color:#f3f3f3;
+    }
+.warning-alert{
+    background-color:#facc15;
+    color:black;
+}
+.info-alert{
+    background-color: #0ea5e9;
+    color:black;
+}
+.success-alert{
+    background-color: #86efac;
+    color:#f3f3f3;
+}
+.red-outline{
+    border-color: #f87171;
+    color: #f87171;
+}
+.warning-outline{
+    border-color:#facc15 ;
+    color: blackl
+}
+.info-outline {
+    border-color: #0ea5e9 ;
+    color: #0ea5e9;
+}
+.success-outline{
+    border-color:#86efac ;
+    color: #86efac;
+}
