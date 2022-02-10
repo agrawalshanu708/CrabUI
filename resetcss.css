@@ -157,7 +157,7 @@ input{
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     html{
-        font-size: 50%;
+        font-size: 40%;
     }
     [class*="col-"] {
      width: 100%;
@@ -188,6 +188,8 @@ input{
         width: 20rem;
     }
   }
+
+
   .iframe-box{
       margin: 0 auto;
       text-align: center;

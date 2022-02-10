@@ -1,30 +1,27 @@
-@import "../resetcss.css";
+@import "./resetcss.css";
+@import "./variableCss.css";
 
 
 
 
-.landing-page{
-    display: flex;
-    flex-direction: column;
+.brand-name{
+    font-size: 5rem;
+   
+}
+.brand-tag{
+    color: var(--primary-color);
     
 }
 
-
-.first-part{
+.main-row{
     /* border: 1px solid black;  */
     display: flex;
-   
-   
 } 
-.logo{
-     margin-top: 9rem;
-     margin-left: 7rem;
-    /* border: 1px solid black; */
-    width: 50%;
-
+.landing-image{
+  /* border: 1px solid black; */
 }
 
-.logo img{
+.landing-image img{
     width: 100%
 }
 .banner-heading{
@@ -33,23 +30,17 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    width: 50%;
-   
-
-
 }
 .banner-head{
-    text-align: center;
+   text-align: center;
     /* border: 1px solid black; */
-    font-size: 4.5rem;
+   font-size: 4.5rem;
    text-align-last: center;
-   margin: 7rem 0rem 0 0rem;
-   width: 59rem;
-
+   margin-top: 7rem;
 }
+
 .banner-tag{
     /* border: 1px solid black; */
-    width: 50rem;
     font-size: 3rem;
     text-align: justify;
     text-align-last: center;
@@ -57,9 +48,8 @@
 }
 .banner-button-box{
      /* border: 1px solid black; */
-     margin: 8rem;
-     width: 40rem;
-     height: 6rem;
+     margin-top: 8rem;
+    height: 9rem;
      display: flex;
      justify-content: space-between;
 }
@@ -100,4 +90,21 @@
     color: #fb7185;
    
 }
-
+.size{
+    font-size: 4rem;
+}
+/* -------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html{
+        font-size: 40%;
+    }
+    [class*="col-"] {
+        width: 100%;
+       }
+       .main-row{
+           display: flex;
+           flex-direction: column;
+    }
+       
+}
