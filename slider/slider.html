@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>SLIDER</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    
+  <div class="header col-12">
+        
+    <div class="logo-box col-3">
+        <div class="brand-name">Crab<span class="brand-tag">UI</span></div>
+    </div>
+
+     <div class="search-box col-4">
+      <input/>
+      <span class="material-icons size">search</span>       
+     </div>
+
+       <div class="right-head col-5">
+        <div class="version">V1.1</div>
+        <button class="docs-button">docs</button>
+        <a href="github.com">GitHub</a>
+        <span class="material-icons size">nightlight_round</span>
+       </div>
+     
+   </div>
+      
+      <div class="row">
+          <!-- ------------------------------------------------left-menu -->
+        <div class="col-2 menu">
+          <ul>
+            <li> <a href="../card/card.html"  class="left-btn card">CARD</a></li>
+            <li> <a href="../alert/alert.html" class="left-btn alert">ALERT</a></li>
+            <li> <a href="../button/button.html" class="left-btn alert">BUTTON</a></li>
+            <li> <a href="../avatar/avatar.html" class="left-btn alert">AVATAR</a></li>
+            <li> <a href="../badge/badge.html" class="left-btn alert">BADGE</a></li>
+            <li> <a href="../input/input.html" class="left-btn alert">INPUT</a></li>
+            <li> <a href="../modal/modal.html" class="left-btn alert">MODAL</a></li>
+            <li> <a href="../rating/rating.html" class="left-btn alert">RATING</a></li>
+            <li> <a href="../slider/slider.html" class="left-btn alert">SLIDER</a></li>
+            <li> <a href="../snackbar/snackbar.html" class="left-btn alert">SNACKBAR</a></li>
+            <li> <a href="../text-utilities/text.html" class="left-btn alert">TEXT</a></li>
+
+    
+          </ul>
+        </div>
+       <!-- ----------------------------------------------------------right-window -->
+       <div class="col-2 right">
+        <div class="aside">
+          <h2>What?</h2>
+          <p>Introduction</p>
+          <p>Volume slider</p>
+          <p>Carousel</p>
+          <P>Automatic-Slider</P>
+        </div>
+      </div>
+        <!-- ----------------------------------------------------------------------middle-window -->
+        <div class="col-8">
+            <h1>SLIDER</h1>
+            <p class="main-para">Sliders allow users to view and select a value (or range) from the range along a bar. They’re ideal for adjusting settings such as volume and brightness, or for applying image filters..</p>
+
+            <h2>Volume Slider</h2>
+             <p >Continuous sliders allow users to set and select a value along a subjective range.</p>
+             
+             <div class="slider-box"> 
+                 <div class="slider">
+                     <input type="range" min="0" max="100" value="50">
+                     <progress min="0", max="100", value="50"></progress>
+               </div>
+               <div class="slider-value">50</div>
+             </div>
+
+              <div class="iframe-box">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-box%2522%253E%2520%250A%253Cdiv%2520class%253D%2522slider%2522%253E%250A%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%253E%250A%253Cprogress%2520min%253D%25220%2522%252C%2520max%253D%2522100%2522%252C%2520value%253D%252250%2522%253E%253C%252Fprogress%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522slider-value%2522%253E50%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 589px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+              </div>
+         
+          <h2>Carousel</h2>
+          <p>A slideshow is used to cycle through elements:</p>
+          <div class="slide-show-container">
+          <div class="slides fade show-dimension">
+            <img src="../images/home-slide-1.webp" alt="">
+          </div>
+          <div class="slides fade show-dimension">
+            <img src="../images/home-slide-2.jpg" alt="">
+
+          </div><div class="slides fade show-dimension">
+            <img src="../images/home-slide-3.jpg" alt="">
+
+          </div><div class="slides fade  show-dimension">
+            <img src="../images/home-slide-4.jpg" alt="">
+          </div>
+
+          <span class="material-icons fwd-icon" onclick="plusSlides(-1)">
+            arrow_forward_ios
+            </span>
+            <span class="material-icons bck-icon" onclick="plusSlides(1)">
+              arrow_back_ios
+              </span>
+        </div>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+
+        </div>
+
+        <div class="iframe-box">
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide-show-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slides%2520fade%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-1.webp%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slides%2520fade%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slides%2520fade%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-3.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slides%2520fade%2520%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-4.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520fwd-icon%2522%2520onclick%253D%2522plusSlides%28-1%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520arrow_forward_ios%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520bck-icon%2522%2520onclick%253D%2522plusSlides%281%29%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520arrow_back_ios%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520style%253D%2522text-align%253Acenter%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dot%2522%2520onclick%253D%2522currentSlide%281%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dot%2522%2520onclick%253D%2522currentSlide%282%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dot%2522%2520onclick%253D%2522currentSlide%283%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dot%2522%2520onclick%253D%2522currentSlide%284%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 766px; height: 632px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+          <!-- ----------------------------------------------automatic -->
+
+          <h2>Automatic Slide-show</h2>
+          <p>Automatic slider display every image after 2 seconds</p>
+
+          <div class="slide-show-container">
+            <div class="a-slides fade show-dimension">
+              <img src="../images/home-slide-1.webp" alt="">
+            </div>
+            <div class="a-slides fade show-dimension">
+              <img src="../images/home-slide-2.jpg" alt="">
+  
+            </div><div class="a-slides fade show-dimension">
+              <img src="../images/home-slide-3.jpg" alt="">
+  
+            </div><div class="a-slides fade  show-dimension">
+              <img src="../images/home-slide-4.jpg" alt="">
+            </div>
+  
+           
+          </div>
+          <div style="text-align:center">
+            <span class="adot" onclick="currentSlide(1)"></span> 
+            <span class="adot" onclick="currentSlide(2)"></span> 
+            <span class="adot" onclick="currentSlide(3)"></span> 
+            <span class="adot" onclick="currentSlide(4)"></span> 
+  
+          </div>
+
+          <div class="iframe-box">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide-show-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522a-slides%2520fade%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-1.webp%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522a-slides%2520fade%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-2.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522a-slides%2520fade%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-3.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522a-slides%2520fade%2520%2520show-dimension%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fhome-slide-4.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520style%253D%2522text-align%253Acenter%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522adot%2522%2520onclick%253D%2522currentSlide%281%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522adot%2522%2520onclick%253D%2522currentSlide%282%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522adot%2522%2520onclick%253D%2522currentSlide%283%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522adot%2522%2520onclick%253D%2522currentSlide%284%29%2522%253E%253C%252Fspan%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+  style="width: 698px; height: 558px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+
+        <footer>footer</footer>
+      </div>
+    </div>
+
+    <script src="slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>MODAL</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    
+  <div class="header col-12">
+        
+    <div class="logo-box col-3">
+        <div class="brand-name">Crab<span class="brand-tag">UI</span></div>
+    </div>
+
+     <div class="search-box col-4">
+      <input/>
+      <span class="material-icons size">search</span>       
+     </div>
+
+       <div class="right-head col-5">
+        <div class="version">V1.1</div>
+        <button class="docs-button">docs</button>
+        <a href="github.com">GitHub</a>
+        <span class="material-icons size">nightlight_round</span>
+       </div>
+     
+   </div>
+  
+  <div class="row">
+      <!-- ------------------------------------------------left-menu -->
+    <div class="col-2 menu">
+      <ul>
+        <li> <a href="../card/card.html"  class="left-btn card">CARD</a></li>
+        <li> <a href="../alert/alert.html" class="left-btn alert">ALERT</a></li>
+        <li> <a href="../button/button.html" class="left-btn alert">BUTTON</a></li>
+        <li> <a href="../avatar/avatar.html" class="left-btn alert">AVATAR</a></li>
+        <li> <a href="../badge/badge.html" class="left-btn alert">BADGE</a></li>
+        <li> <a href="../input/input.html" class="left-btn alert">INPUT</a></li>
+        <li> <a href="../modal/modal.html" class="left-btn modal">MODAL</a></li>
+        <li> <a href="../rating/rating.html" class="left-btn alert">RATING</a></li>
+        <li> <a href="../slider/slider.html" class="left-btn alert">SLIDER</a></li>
+        <li> <a href="../snackbar/snackbar.html" class="left-btn alert">SNACKBAR</a></li>
+        <li> <a href="../text-utilities/text.html" class="left-btn alert">TEXT</a></li>
+
+
+      </ul>
+    </div>
+   <!-- ----------------------------------------------------------right-window -->
+   <div class="col-2 right">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Introduction</p>
+      <p>Basic</p>
+    </div>
+  </div>
+    <!-- ----------------------------------------------------------------------middle-window -->
+    <div class="col-8">
+            <div class="modal-page">
+                <h1>MODAL</h1>
+                <p class="main-para">Modal is used to show pop-up message</p>
+        
+                <h2>Basic</h2>
+                <p>A simple pop-up message</p>
+        
+                <div class="modal-container">
+                  <button class="open-button" id="modal-btn">
+                    OPEN
+                  </button>
+                  <div>
+                    <div id="modal-content">
+                      <p>Do you want to Continue ?</p>
+                      <div class="modal-button">
+                        <button class="m_button" id="modal-yes-btn">
+                          yes
+                        </button>
+                        <button id="modal-no-btn" class="m_button">
+                          No
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+           <div class="iframe-box">
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522open-button%2522%2520id%253D%2522modal-btn%2522%253EOPEN%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDo%2520you%2520want%2520to%2520Continue%2520%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522m_button%2522%2520id%253D%2522modal-yes-btn%2522yes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522modal-no-btn%2522%2520class%253D%2522m_button%2522%253E%2520No%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+            style="width: 716px; height: 429px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+           </div>   
+    
+            </div>
+        <footer>footer</footer>
+    </div>
+    <script src="modal.js"></script>
+</body>
+</html>
