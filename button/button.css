@@ -11,7 +11,7 @@
        max-width: 80%;
    }
   }
-
+/* ------------------------------------------------------------------------------------------------- */
 .skin{
     padding: 0.5rem 0.5rem 0 0.1rem;
     
@@ -20,17 +20,11 @@
     margin: 1rem;
     width: 35rem;
 }
-
-
-
-
-  a{
+a{
       font-size: 2rem;
       text-decoration: none;
       color: black;
   }
-
-
 .skin {
     padding: 0.5rem 0.5rem 0 0.1rem;
 
@@ -70,7 +64,27 @@ li {
     margin: 2rem 2rem 2rem 0;
     padding: 2rem 0;
 }
-
+.floating-button-container {
+    border: 1px solid var(--primary-color);
+    margin: 2rem 2rem 2rem 0;
+    padding: 2rem;
+    position: relative;
+    height: 40rem;
+}
+.floating-button-container img{
+    width: 100%;
+    height: 100%;
+}
+.floating-button-container button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    min-width: none;width: 10rem;
+    height: 6rem;
+    background-color:rgb(245, 96, 96);
+    color: var(--background-color);
+    border-radius: 1rem;
+}
 .size-box {
     display: flex;
     flex-direction: column;
@@ -86,8 +100,9 @@ a{
     /* border: none; */
     background: transparent;
     padding: 1rem;
-    width: 12rem;
+    min-width: 12rem;
     border-radius: 1rem;
+  
 }
 
 .button-large-skin {
@@ -156,6 +171,7 @@ a{
  }
  .small-filled{
      background-color:yellowgreen;
+     width: 12rem;
  }
  .large-outlined{
      border-color: chocolate;
@@ -168,6 +184,8 @@ a{
  .small-outlined{
      border-color:yellowgreen;
      color: yellowgreen;
+     width: 12rem;
+
  }
  a{
     font-size: 2rem;
