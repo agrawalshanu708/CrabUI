@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Snackbar</title>
+     <link rel="stylesheet" href="snackbar.css">
+</head>
+<body>
+    
+  <div class="header">
+    <h1>Chania</h1>
+  </div>
+  
+  <div class="row">
+      <!-- ------------------------------------------------left-menu -->
+    <div class="col-2 menu">
+      <ul>
+        <li> <a href="../card/card.html"  class="left-btn card">CARD</a></li>
+        <li> <a href="../alert/alert.html" class="left-btn alert">ALERT</a></li>
+        <li> <a href="../button/button.html" class="left-btn alert">BUTTON</a></li>
+        <li> <a href="../avatar/avatar.html" class="left-btn alert">AVATAR</a></li>
+        <li> <a href="../badge/badge.html" class="left-btn alert">BADGE</a></li>
+        <li> <a href="../input/input.html" class="left-btn alert">INPUT</a></li>
+        <li> <a href="../modal/modal.html" class="left-btn alert">MODAL</a></li>
+        <li> <a href="../rating/rating.html" class="left-btn alert">RATING</a></li>
+        <li> <a href="../slider/slider.html" class="left-btn alert">SLIDER</a></li>
+        <li> <a href="../snackbar/snackbar.html" class="left-btn alert">SNACKBAR</a></li>
+        <li> <a href="../text-utilities/text.html" class="left-btn alert">TEXT</a></li>
+
+      </ul>
+    </div>
+   <!-- ----------------------------------------------------------right-window -->
+   <div class="col-2 right">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>Introduction</p>
+      <p>Basic</p>
+    </div>
+  </div>
+    <!-- ----------------------------------------------------------------------middle-window -->
+    <div class="col-8">
+            
+            <h1> SnackBar/Toast </h1>
+      <p class="main-para">
+        Snackbars are often used as tooltips/popups to show a message at the
+         screen.
+      </p>
+      <h2>Basic</h2>
+      <p>Click on the button to show the snackbar. It will disappear after 1 seconds.</p>
+       <div class="toast-container box-skin">
+
+      
+        <button class="toast-btn" id="add-to-cart-toast">ADD TO CART</button>
+         <button class="toast-btn" id="send-msg-toast">SEND EMAIL</button>
+         <button class="toast-btn" id="remove-toast">Remove From Cart</button>
+       </div>
+       <div class="toast-text" id="cart-toast-text">Added To Cart</div>    
+       <div class="toast-text" id="msg-toast-text">E-mail Sent successfully</div>    
+       <div class="toast-text" id="remove-toast-text">Removed!!</div>    
+
+       <div class="iframe-box">
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-container%2520box-skin%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-btn%2522%2520id%253D%2522add-to-cart-toast%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-btn%2522%2520id%253D%2522send-msg-toast%2522%253ESEND%2520EMAIL%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-btn%2522%2520id%253D%2522remove-toast%2522%253ERemove%2520From%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+        style="width: 782px; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+       </div>
+      </div>
+        <footer>footer</footer>
+    </div>
+   
+    <script src="snackbar.js"></script>
+</body>
+</html>
