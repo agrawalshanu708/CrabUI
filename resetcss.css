@@ -47,7 +47,14 @@ a{
   }
   
   /* ----------------------------------------------------------------------------------------------------------------- */
-
+  .brand-name{
+    font-size: 5rem;
+   
+}
+.brand-tag{
+    color: var(--primary-color);
+    
+}
  .logo-box{
     /* border: 1px solid black; */
     width: 30rem
@@ -153,7 +160,7 @@ input{
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  
+  /* -------------------------------------------------------------------responsive */
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     html{
@@ -184,12 +191,12 @@ input{
         display: flex;
         justify-content: space-between;
     }
-    .search-box input{
-        width: 20rem;
+    .search-box{
+      visibility: hidden;
     }
   }
 
-
+/* ------------------------------------------------------------------------------------ */
   .iframe-box{
       margin: 0 auto;
       text-align: center;
