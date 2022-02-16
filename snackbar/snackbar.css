@@ -1,0 +1,65 @@
+@import "../resetcss.css";
+
+
+
+@media screen and (max-width: 768px){
+    .toast-container{
+        display: flex;
+      flex-direction: column;
+       max-width: 35rem;   
+       height: auto;
+       justify-content: center;
+       align-items: center;
+    }    
+
+    button{
+        width: 20rem;
+    }
+   }
+   
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+    /* -------------------------------------------------------- */
+
+    .toast-container{
+        border: 1px solid var(--primary-color);
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+
+      }
+
+      .box-skin{
+          margin: 2rem 10vw;
+          padding: 1rem
+      }
+      button{
+          padding: 1rem 2rem;
+          
+      }
+      /* ---------------------------------------------------- */
+      .toast-text{
+          border: 1px solid var(--primary-color);
+          font-size: 4rem;
+          width: 50rem;
+          text-align: center;
+          color: var(--background-color);
+          background-color: var(--primary-color);
+          border-radius: 1rem;
+          visibility: hidden;
+        }
+        .toast-btn{
+            color: var(--background-color);
+            border-radius: 1rem;
+        }
+        #add-to-cart-toast{
+            background-color: #1f2937 ;
+        }
+#send-msg-toast{
+    background-color:#881337;
+
+}
+#remove-toast{
+    background-color: #1e3a8a;
+}
