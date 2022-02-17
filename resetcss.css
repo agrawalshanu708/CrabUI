@@ -96,7 +96,17 @@ a{
     
 }
 .logo-box{
-  width: 30rem
+  width: 20%;
+  display: flex;
+  align-items: center;
+
+}
+.brand-image-box{
+ width: 30%;
+
+}
+.brand-image-box img{
+width: 100%;
 }
 .search-box{
     display: flex;
