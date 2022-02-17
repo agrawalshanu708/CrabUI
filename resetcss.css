@@ -209,10 +209,14 @@ right: 23%;
     height: 10rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  
 }
 .bottom-arrow-icon{
     font-size: 4rem;
     cursor: pointer;
+    margin: 2rem;
+  
 }
 
   /* -------------------------------------------------------------------RESPONSIVE--------------------------------------- */
