@@ -4,34 +4,29 @@
 
 @media screen and (max-width: 768px){
     .toast-container{
-        display: flex;
-      flex-direction: column;
-       max-width: 35rem;   
-       height: auto;
-       justify-content: center;
-       align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;   
+    height: auto;
+    justify-content: center;
+    align-items: center;
     }    
 
     button{
         width: 20rem;
     }
-   }
-   
-/* --------------------------------------------------------------------------------------------------------- */
-
-
-    /* -------------------------------------------------------- */
+}
+/* -------------------------------------------------------- */
 
     .toast-container{
         border: 1px solid var(--primary-color);
         display: flex;
         gap: 2rem;
         justify-content: center;
+}
 
-      }
-
-      .box-skin{
-          margin: 2rem 10vw;
+.box-skin{
+          margin: 2rem;
           padding: 1rem
       }
       button{
@@ -48,18 +43,19 @@
           background-color: var(--primary-color);
           border-radius: 1rem;
           visibility: hidden;
+          position: absolute;
         }
         .toast-btn{
             color: var(--background-color);
             border-radius: 1rem;
         }
         #add-to-cart-toast{
-            background-color: #1f2937 ;
+            background-color: var(--random-color-1) ;
         }
 #send-msg-toast{
-    background-color:#881337;
+    background-color:var(--random-color-2);
 
 }
 #remove-toast{
-    background-color: #1e3a8a;
+    background-color: var(--random-color-3);
 }

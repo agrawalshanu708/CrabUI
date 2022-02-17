@@ -16,39 +16,8 @@
 }
 }
 
-/* ------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
 
-.skin{
-    padding: 0.5rem 0.5rem 0 0.1rem;
-    
-}
-.card-skin{
-    margin: 1rem;
-    width: 35rem;
-}
-
-a{
-  font-size: 2rem;
-  text-decoration: none;
-  color: black;
-}
-
-  article a{
-      display: block;
-      margin-top: 1rem;
-      padding-left: 2rem;
-      
-  
-  }
-  article{
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      /* margin : 2rem 0 8rem 0; */
-  }
-  
-
-    /*-------------------------------------------------avatar  */
 .slider-box{
     border: 1px solid var(--primary-color);
     display: flex;
@@ -78,10 +47,10 @@ a{
     -webkit-appearance: none;
     width: 2rem;
     height: 2rem;
-    background-color: #fff;
+    background-color: var(--background-color);
     border: 2px solid rgb(9,205,240);
     cursor: pointer;
-    box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px var(--background-color);
     border-radius: 50%;
 }
 
@@ -114,16 +83,14 @@ a{
 }
 /* ---------------------------------------------------------------------slide-show */
 .slide-show-container{
-    /* border: 1px solid black; */
    display: flex;
    flex-direction: column;
-
    position: relative;
    
 }
 .show-dimension{
-    width: 90rem;
-    
+    width: 80%;
+
 }
 .show-dimension img{
     width: 100%;
@@ -163,7 +130,7 @@ a{
   .active, .dot:hover {
     background-color: #717171;
   }
-  /* Fading animation */
+  /* Fading animation-------------------------------------- */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;

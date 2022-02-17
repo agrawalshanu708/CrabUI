@@ -14,6 +14,15 @@ html{
     --border-color:#fecaca;
     --background-color: #fff1f2;
     --discount-color: red;
+    --error-alert-color:#f87171 ;
+    --warning-alert-color:#facc15 ;
+    --info-alert-color:#0ea5e9 ;
+    --success-alert-color:#86efac ;
+    --badge-notification-color: red;
+    --badge-online-color: green;
+    --random-color-1: #1f2937;
+    --random-color-2 :#881337 ;
+    --random-color-3:#1e3a8a ;
     --h1-font-size: 3.4rem;
     --h2-font-size: 3rem;
     --p-font-size: 2.3rem;
