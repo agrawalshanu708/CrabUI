@@ -1,0 +1,30 @@
+@import "../resetcss.css";
+
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.typography-box{
+    border: 1px solid var(--primary-color);
+    width: 70% ;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+
+}
+.left-text{
+    text-align: left;
+}
+.right-text{
+    text-align: right ;
+}
+.center-text{
+    text-align:center ;
+}
+.small-text{
+    font-size: 1.5rem;
+}
+.grey-text{
+    color: gray;
+}
