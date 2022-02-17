@@ -8,35 +8,38 @@ a{
     color: black;
 }
 
-.card-tittle {
+/* ----------------------------------------------RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .border-skin{
+        max-width: 100%;
+    }
+  }
+/* --------------------------------------------------CARD TYPOGRAPHY--------------- */
+.card-tittle { 
     text-align:center;
     font-size:var(--card-tittle-font-size);
-    /* border:1px solid black; */
-   
 }
 .card-head {
     font-size:var(--card-heading-font-size);
-    /* border:1px solid black; */
-    
 }
 .card-tag {
     font-size:var(--card-tag-font-size);
     color: gray;
-    /* border:1px solid black; */
 }
 
 .card-desc {
     font-size:var(--card-description-font-size);
-    /* border:1px solid black; */
-}
+} 
+
 .card-price {
     font-size:var(--card-price-font-size);
-  }
+}
 .original {
     text-decoration: line-through;
-  }
+}
 .card-off {
-    color: red;
+    color: var(--discount-color);
     font-size: var(--card-discount-font-size);
 }
 
@@ -50,5 +53,8 @@ a{
 }
 /* ------------------------------------------------------------------------------------------- */
 
+.love-icon{
+    color: red;
+}
 
 

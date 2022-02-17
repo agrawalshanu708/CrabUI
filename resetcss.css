@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Roboto:ital,wght@1,300&family=Shippori+Antique&display=swap');
-
 @import "./variableCss.css";
+/* -----------------------------------------------TYPOGRAPHY------------------------------------ */
+body{
+  position: relative;
+}
 h1{
     font-family: 'Shippori Antique', sans-serif;
     font-size: var(--h1-font-size);
-    margin: 0 0 1rem 0;
+    margin-bottom: 1rem;
 }
 h1::first-letter{
     color:var(--primary-color);
@@ -12,7 +15,8 @@ h1::first-letter{
 h2{
     font-family: 'Outfit', sans-serif;
     font-size:var(--h2-font-size);
-    margin: 0 0 1rem 0;
+    margin-bottom: 1rem;
+
 }
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,7 +30,21 @@ a{
     text-decoration: none;
     font-size: 2rem;
 }
-/* --------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------- GRID-LAYOUT-------------------------------------------------------- */
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
 .row::after {
     content: "";
     clear: both;
@@ -37,39 +55,28 @@ a{
     float: left;
     padding: 15px;
   }
- 
-  
-  
-  .header {
+  /* ---------------------------------------------------------HEADER--------------------------------- */
+ .header {
     display: flex;
-    /* border: 1px solid black; */
     padding: 15px;
   }
-  
-  /* ----------------------------------------------------------------------------------------------------------------- */
   .brand-name{
     font-size: 5rem;
-   
-}
+  }
 .brand-tag{
     color: var(--primary-color);
     
 }
- .logo-box{
-    /* border: 1px solid black; */
-    width: 30rem
+.logo-box{
+  width: 30rem
 }
-
 .search-box{
     display: flex;
-    /* border: 1px solid black; */
     flex-grow: 1;
-  justify-content: end;
+    justify-content: end;
     align-items: center;
 }
-
 input{
-    
     width: 40rem;
     height: 4rem;
     border-width: 0.2rem;
@@ -79,7 +86,6 @@ input{
 }
 .right-head{
     cursor: pointer;
-    /* border: 1px solid black; */
     width: 45rem;
     display: flex;
     align-items: center;
@@ -105,62 +111,78 @@ input{
 .mode-size{
     font-size: 3rem;
 }  
+/* ------------------------------------------------MIDDLE-------------------------------------------------------------- */
 
-  /* --------------------------- */
+.middle-arrow-icon{
+  position: fixed;
+  top: 50%;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.middle-right-arrow{
+  right: 20%;
+}
+.middle-left-arrow{
+right: 23%;
+}
+/* -------------------------------------------------------LEFT-BAR----------------------------------------------------- */
+ .menu{
+   position: sticky;
+   left: 0;
+   top: 0;
+  }
   .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-   
+   border-right: 1px solid var(--border-color);
+   height: 100vh;
   }
   
   .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    /* background-color: #33b5e5; */
-    color: #ffffff;
-    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
   }
-  
+ 
   .menu li:hover {
-    color:#ffffff;
+    color: var(--background-color);
     background-color: var(--primary-color);
-  }
-  
+  } 
+   /* ------------------------------------------------------------RIGHT-BAR------------------------------------------- */
   .aside {
-
-    background-color: #fff1f2;
+    background-color: var(--background-color);
     padding: 15px;
     color: var(--primary-color);
     text-align: center;
-    font-size: 14px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-size: 1.4rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.12), 0 1rem 1rem rgba(0,0,0,0.24);
   }
   .right{
     float: right;
+    position: sticky;
+    right:0;
+    top:0;
     }
+
+    /* --------------------------------------------------------FOOTER--------------------------------------------------- */
   .footer {
-    background-color: #0099cc;
-    color: #ffffff;
     text-align: center;
-    font-size: 12px;
+    font-size: 2rem;
     padding: 15px;
   }
-  
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  /* -------------------------------------------------------------------responsive */
+  .bottom-arrow-box{
+    /* border: 1px solid black; */
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-arrow-icon{
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+  /* -------------------------------------------------------------------RESPONSIVE--------------------------------------- */
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     html{
@@ -172,34 +194,22 @@ input{
    .right{
         display: none;
     } 
-    .header .right-head{
-        display: none;  
-
-    }
-    .header{
-        max-width:100%;
-        border: 1px solid black;
-        display: flex;
-        justify-content: space-between;
-    }
     .search-box{
       visibility: hidden;
     }
+    iframe{
+      max-width: 100%;
+      height: auto
+   }
+   .middle-arrow-icon{
+     display: none;
+   }
   }
 
-/* ------------------------------------------------------------------------------------ */
-  /* .iframe-box{
-      margin: 0 auto;
-      text-align: center;
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      padding-top: 56.25%; 16:9 Aspect Ratio
-   }
-  .iframe-box iframe {
-    position: absolute;
-    
-    width: 100%;
-    height: 100%;
-    border: none;
-  }  */
+/* ----------------------------------------------I-FRAME-------------------------------------- */
+iframe{
+  width: 80rem;
+  height: auto;
+  margin-bottom:8rem;
+  border: 0.1rem solid var(--primary-color);
+  }
