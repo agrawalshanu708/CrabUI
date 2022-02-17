@@ -1,0 +1,33 @@
+@import "../resetcss.css";
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    
+}
+.list-text{
+    border: 1px solid var(--primary-color);
+    width: 70%;
+    font-size: 2rem;
+    list-style: none;
+    padding-left: 1rem;
+}  
+.notification-list{
+    border: 1px solid var(--primary-color);
+    display: flex;
+    gap: 10rem;
+    width: 70%;
+    align-items: center;
+
+}
+.avatar-img-box{
+    width: 6rem;
+    height: 6rem;
+}
+.avatar-img-box img{
+    margin-left: 1rem;
+    width: 100%;
+    border-radius: 50%;
+}
