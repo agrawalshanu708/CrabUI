@@ -2,11 +2,7 @@
 .same{
     border-color: var(--primary-color);
 }
-a{
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-}
+
 
 /* ----------------------------------------------RESPONSIVE */
 @media only screen and (max-width: 768px) {

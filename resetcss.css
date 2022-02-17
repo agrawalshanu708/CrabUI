@@ -149,6 +149,11 @@ right: 23%;
     color: var(--background-color);
     background-color: var(--primary-color);
   } 
+  a{
+    font-size: 2rem;
+    text-decoration: none;
+   color: black;
+}
    /* ------------------------------------------------------------RIGHT-BAR------------------------------------------- */
   .aside {
     background-color: var(--background-color);
