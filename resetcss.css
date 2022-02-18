@@ -145,9 +145,12 @@ input{
     font-size: 4.5rem;
     color: var(--primary-color)
 }
-
 .mode-size{
     font-size: 3rem;
+}
+#daylight-mode{
+  border: none;
+  background-color: none;
 }  
 /* ------------------------------------------------MIDDLE-------------------------------------------------------------- */
 
