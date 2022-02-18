@@ -1,5 +1,5 @@
 @import "./resetcss.css";
-@import "./variableCss.css";
+
 
 
 
@@ -95,13 +95,7 @@
 }
 /* -------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    html{
-        font-size: 40%;
-    }
-    [class*="col-"] {
-        width: 100%;
-       }
+ 
        .main-row{
            display: flex;
            flex-direction: column;

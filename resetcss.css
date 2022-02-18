@@ -233,7 +233,7 @@ right: 23%;
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     html{
-        font-size: 40%;
+        font-size: 50%;
     }
     [class*="col-"] {
      width: 100%;
