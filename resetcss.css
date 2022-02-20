@@ -263,3 +263,7 @@ iframe{
   margin-bottom:8rem;
   border: 0.1rem solid var(--primary-color);
   }
+
+  .menu:active{
+   background-color: red;
+  }
