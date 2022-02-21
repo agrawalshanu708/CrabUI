@@ -258,7 +258,7 @@ right: 23%;
 
 /* ----------------------------------------------I-FRAME-------------------------------------- */
 iframe{
-  width: 80rem;
+  width: 80%;
   height: auto;
   margin-bottom:8rem;
   border: 0.1rem solid var(--primary-color);
