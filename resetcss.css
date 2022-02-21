@@ -196,6 +196,10 @@ right: 23%;
     text-decoration: none;
    color: black;
 }
+.current-item{
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
    /* ------------------------------------------------------------RIGHT-BAR------------------------------------------- */
   .aside {
     background-color: var(--background-color);
