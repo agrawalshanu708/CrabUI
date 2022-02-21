@@ -1,0 +1,14 @@
+@import "/resetcss.css";
+.grid-2-box{
+     border: 1px solid black; 
+     height:5rem;
+}
+.grid-3-box {
+    border: 1px solid black;
+    height:5rem;
+    
+}
+.grid-container{
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
