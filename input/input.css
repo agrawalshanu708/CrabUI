@@ -34,7 +34,7 @@ input {
   }
   .input-validation{
     color: var(--discount-color);
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   button{
     width: 10rem;
@@ -43,3 +43,9 @@ input {
     color: var(--background-color);
     border-radius: 1rem;
   }
+  /*--------------------------------------------------------------------------------  */
+  .pass-validation{
+    border-color: red;
+    color: red;
+  }
+  
