@@ -14,18 +14,15 @@
 }
 
 .main-row{
-    /* border: 1px solid black;  */
     display: flex;
 } 
 .landing-image{
-  /* border: 1px solid black; */
 }
 
 .landing-image img{
     width: 100%
 }
 .banner-heading{
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -33,22 +30,19 @@
 }
 .banner-head{
    text-align: center;
-    /* border: 1px solid black; */
    font-size: 4.5rem;
    text-align-last: center;
-   margin-top: 7rem;
+   margin-top: 4rem;
 }
 
 .banner-tag{
-    /* border: 1px solid black; */
     font-size: 3rem;
     text-align: justify;
     text-align-last: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .banner-button-box{
-     /* border: 1px solid black; */
-     margin-top: 8rem;
+     margin-top: 6rem;
     height: 9rem;
      display: flex;
      justify-content: space-between;
