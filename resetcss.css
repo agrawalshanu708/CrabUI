@@ -113,24 +113,27 @@ width: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
+    flex-grow: 1;
+
 
 }
 input{
     width: 30rem;
-    height: 4rem;
+    height: 5rem;
     border-width: 0.2rem;
     align-content: flex-start;
     border-color: var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 1rem;
    
 }
 .right-head{
+    width: 40rem;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 1.5rem;
-add
+
     
 }
 .docs-button{
