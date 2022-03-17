@@ -36,7 +36,7 @@ li{
     color: var(--discount-color);
     font-size: 2rem;
   }
-  button{
+  .form-button{
     width: 10rem;
     height: 3rem;
     background-color: var(--primary-color);
