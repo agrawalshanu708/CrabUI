@@ -119,7 +119,7 @@ width: 100%;
 
 
 }
-input{
+.header-input{
     width: 30rem;
     height: 5rem;
     border-width: 0.2rem;
